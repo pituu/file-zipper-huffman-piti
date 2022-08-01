@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(153, 153, 245);
+
+}
+.container
+{
+    border: 2px solid rgb(152, 152, 241);
+    width:500px;
+    height:550px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.blank
+{
+    border: 2px solid rgb(185, 185, 247);
+    margin: 30px auto;
+    width:  80%;
+    height:400px;    
+    background-color: white;
+    /* padding: 20px; */
+    border-style: dotted;
+    border-radius: 8px;
+}
+.image
+{
+    margin: 70px auto;
+    display: block;
+}
+.file-input
+{
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding-left: 70px;
+    
+}
+.endec
+{
+    
+    margin: auto;
+    width:  80%;
+     
+    background-color: white;
+    /* padding: 20px; */
+    
+}
+#encode
+{
+    float: left;
+    background-color: rgb(235, 235, 21);
+    padding:8px;
+    border-radius: 10px;
+}
+#decode
+{
+    float: right;
+    background-color: rgb(12, 240, 12);
+    padding:8px;
+    border-radius: 10px;    
+
+
+}
