@@ -26,7 +26,7 @@ input.addEventListener('change', function (e) {
 }, false)
 function downloadFile(fileName, data){
     let a = document.createElement('a');
-    console.log(info.length);
+    console.log(data.length);
     a.href = "data:application/octet-stream,"+encodeURIComponent(data);
     a.download = fileName;
     a.click();
